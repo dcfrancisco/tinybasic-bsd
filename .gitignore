@@ -1,0 +1,15 @@
+# Build artifacts
+*.o
+*.a
+*.out
+*.exe
+*.obj
+*.dSYM/
+bsdbasic
+bsdbasic.exe
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+.github/copilot-instructions.md
