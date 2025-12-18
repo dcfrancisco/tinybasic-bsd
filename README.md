@@ -31,7 +31,7 @@ The `Makefile` uses `uname` to choose flags.
 ## Run
 
 ```sh
-./tinybasic-bsd path/to/program.bas
+./bsdbasic path/to/program.bas
 ```
 
 ## BASIC Coverage
