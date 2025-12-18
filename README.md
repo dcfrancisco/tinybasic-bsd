@@ -1,4 +1,4 @@
-# bsdbasic
+# tinybasic-bsd
 
 A small, portable BASIC interpreter designed with PDP-11 2.11BSD (K&R C constraints) in mind, and developed/tested on modern macOS/Linux.
 
@@ -8,7 +8,7 @@ Target: CBM BASIC v2-style, line-numbered program execution, staying close to Mi
 
 ## Naming / Disclaimer
 
-This project is an independent hobby BASIC interpreter. The name “bsdbasic” is meant as “BASIC that builds/runs well on BSD-ish systems (and especially 2.11BSD on PDP-11)”.
+This project is an independent hobby BASIC interpreter. The name “tinybasic-bsd” is meant as “a tiny BASIC that builds/runs well on BSD-ish systems (and especially 2.11BSD on PDP-11)”.
 
 It is not affiliated with, endorsed by, or derived from any official BSD source tree or Commodore/Microsoft BASIC implementation.
 
@@ -31,7 +31,7 @@ The `Makefile` uses `uname` to choose flags.
 ## Run
 
 ```sh
-./bsdbasic path/to/program.bas
+./tinybasic-bsd path/to/program.bas
 ```
 
 ## BASIC Coverage
